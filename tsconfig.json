@@ -10,6 +10,8 @@
       "esModuleInterop": true,
       "declarationMap": true,
       "allowJs": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
     },
     "exclude": [
       "node_modules",

@@ -1,8 +1,7 @@
-import { DynamicModule, Global, Module, Options } from '@nestjs/common';
-import { ApiKey } from './types/api-key.type';
-import { ApiKeysContext } from './types/api-keys-context.type';
+import { DynamicModule, Global, Module, Options } from "@nestjs/common";
+import { ApiKey, ApiKeysContext } from "../types";
 
-export const TMWU_API_KEYS_PROVIDER = 'TMWU_API_KEYS_PROVIDER';
+export const TMWU_API_KEYS_PROVIDER = "TMWU_API_KEYS_PROVIDER";
 
 type Options<T extends string> = {
   apiKeys: ApiKey<T>[];
@@ -34,7 +33,7 @@ export class ApiKeysModule {
   }
 
   static async registerAsync<T extends string = string>(
-    fn: () => Promise<Options<T>>,
+    fn: () => Promise<Options<T>>
   ): Promise<DynamicModule> {
     return ApiKeysModule.register<T>(await fn());
   }
