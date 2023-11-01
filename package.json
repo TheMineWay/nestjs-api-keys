@@ -1,15 +1,16 @@
 {
   "name": "nestjs-api-keys",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A NestJS utility that allows API keys based security",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": "https://github.com/TheMineWay/nestjs-api-keys",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
   "keywords": [],
-  "author": "",
+  "author": "TheMineWay",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.1.6"
