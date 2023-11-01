@@ -1,2 +1,3 @@
-# nestjs-api-keys
-A NestJS API keys utility
+# NestJS API Keys
+
+A NestJS API keys utility which allows you to secure APIs using an API Key based system.
