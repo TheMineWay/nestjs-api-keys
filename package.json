@@ -1,6 +1,6 @@
 {
   "name": "nestjs-api-keys",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "A NestJS utility that allows API keys based security",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
