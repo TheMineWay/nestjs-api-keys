@@ -21,6 +21,6 @@
   ],
   "dependencies": {
     "@nestjs/common": "^10.2.7",
-    "@types/node": "^20.4.4"
+    "@types/node": "^22.7.4"
   }
 }
