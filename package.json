@@ -20,7 +20,7 @@
     "dist/**"
   ],
   "dependencies": {
-    "@nestjs/common": "^10.2.7",
+    "@nestjs/common": "^11.0.7",
     "@types/node": "^22.7.4"
   }
 }
